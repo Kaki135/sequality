@@ -7,14 +7,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void testAppHasAGreeting(){
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
-    }
-}
-@Test
+   @Test
 public void testAppReternHelloWorld() {
 App classUnderTest = new App();
-assertEquals("Hello World", classUnderTest.getGreeting());
-/*“Hello World!”->“Hello World”に変更*/
+assertEquals("Hello World!", classUnderTest.getGreeting());
 }
+    }
